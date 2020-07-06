@@ -3,7 +3,7 @@ import sys
 
 
 def main():
-    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'Instapic.settings')
+    os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'Instaclone.settings')
     try:
         from django.core.management import execute_from_command_line
     except ImportError as exc:
